@@ -91,7 +91,7 @@ class PredictionResult extends StatelessWidget {
                       children: [
                         _buildResultBox(
                           'Điểm số',
-                          '${result['score']}/10',
+                          '${result['score']}/20',
                           Icons.score,
                         ),
                         Container(
